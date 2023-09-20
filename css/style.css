@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -18,6 +19,7 @@ body {
   height: 100vh;
   background: #1abc9c;
   justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
 .card {
   flex-direction: column;
@@ -31,6 +33,8 @@ body {
 }
 h1 {
   margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
 }
 input {
   border: none;
@@ -44,7 +48,6 @@ input {
 .msg {
   font-size: 1.8rem;
   position: absolute;
-  /* top: 3.7rem; */
   top: 0rem;
   right: 1rem;
 }
@@ -58,14 +61,7 @@ img {
 .wrong {
   display: none;
 }
-/* .error-msg {
-  text-align: center;
-} */
 
-/* h1,
-.btn-box {
-  margin-bottom: 2rem;
-} */
 .btn-box {
   display: flex;
   justify-content: center;
